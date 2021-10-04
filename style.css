@@ -1,0 +1,97 @@
+body {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url('./Images/rancidbannerbg.png');
+    background-repeat: repeat;
+}
+
+.image-banner {
+    width: 30%;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    
+    text-shadow: 3px, 3px, #999999;
+}
+.sub-heading{
+    font-weight: bold;
+}
+
+.content-area {
+    background-image: url('./Images/bg.png');
+    margin: auto;
+    width: 55%;
+    background-color: #EEEEEEEE;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.right-section {
+    float: right;
+}
+
+.fresh-banner {
+    height: 83px;
+    background-image: url('./Images/rancidbannerbg.png');
+    background-repeat: repeat;
+    padding-right: 90px;
+}
+
+.rating-header {
+    color: red;
+    text-align: center;
+    display: inline-block;
+    font-size: 48px;
+    padding-left: 90px;
+    position: relative;
+    bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flex-item {
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(212, 212, 212);
+}
+.flex-item blockquote {
+    display: inline-block;
+    margin-left: 30%;
+    text-align: left;
+    font-size: 13px;
+    border-radius: 5px;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-inline-start: inherit;
+    width: 95%;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+.bottom-bar {
+    background-color: #A2B964;
+    size: 0.5em;
+    text-align: center;
+}
+#saifain_nakhla{
+    width: 25pt;
+}
+.sub-heading{
+    padding-right: 100px;
+}
